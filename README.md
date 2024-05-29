@@ -15,8 +15,8 @@ localhostForwarding=true
 autoMemoryReclaim=gradual
 ```
 
-If you have 32GB ram, I suggest setting 8GB, or more if you would like.
-If you have 16GB, I would go for 4GB ram.
+If you have 32GB of RAM, I suggest setting 8GB, or more if you would like.
+If you have 16GB of RAM, I would go for 4GB.
 
 ## Step 2: Install Necessary Packages
 
@@ -27,8 +27,6 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install git curl zsh python3 python3-pip build-essential -y
 ```
 
-When prompted, press "Y" to set zsh as the default shell.
-
 ## Step 3: Install Oh My Zsh
 
 Run the following command to install Oh My Zsh:
@@ -36,6 +34,8 @@ Run the following command to install Oh My Zsh:
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+When prompted, press "Y" to set zsh as the default shell.
 
 ## Step 4: Setup Directories and Syntax Highlighting
 
@@ -73,7 +73,7 @@ Use Homebrew to install additional tools:
 brew install neovim tmux fastfetch go nvm
 ```
 
-## Step 7: Setup NVM
+## Step 7: Setup NVM and Node
 
 Create a directory for NVM and add it to your shell profile:
 
@@ -99,6 +99,12 @@ Then, install the latest LTS version of Node.js:
 
 ```bash
 nvm install --lts
+```
+
+Now, install the latest version of NPM and TypeScript.
+
+```bash
+npm install -g npm@latest typescript
 ```
 
 ## Step 8: Setup Git
@@ -131,7 +137,7 @@ This will download VS Code Server.
 
 ## Step 10: Install MongoDB Community Server on WSL
 
-RUn the following commands to install MongoDB:
+Run the following commands to install MongoDB:
 
 ```bash
 sudo apt-get install gnupg curl
