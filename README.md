@@ -9,6 +9,8 @@ Create a file called `.wslconfig` on your `C:\Users\User` directory with the fol
 ```ini
 [wsl2]
 memory=8GB
+processors=2
+swap=4GB
 localhostForwarding=true
 
 [experimental]
