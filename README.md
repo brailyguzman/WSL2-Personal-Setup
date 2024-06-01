@@ -125,17 +125,7 @@ cat .ssh/id_ed25519.pub
 
 Go to <a href="https://github.com/settings/keys">GitHub SSH Keys</a>, create a new key with whatever name you want, like "WSL", and copy and paste the SSH key.
 
-## Setup 9: Setup VS Code
-
-Install VS Code on your machine and download the WSL extension. Go to a directory like `Documents/GitHub` and run "code ."
-
-```bash
-cd ~/Documents/GitHub && code .
-```
-
-This will download VS Code Server.
-
-## Step 10: Install MongoDB Community Server on WSL
+## Step 9: Install MongoDB Community Server on WSL
 
 Run the following commands to install MongoDB:
 
@@ -150,3 +140,13 @@ sudo apt-get install -y mongodb-org
 sudo systemctl start mongod
 sudo systemctl enable mongod
 ```
+
+## Setup 10: Setup VS Code
+
+Install VS Code on your machine and download the WSL extension. Go to a directory like `Documents/GitHub` and run "code ."
+
+```bash
+cd ~/Documents/GitHub && code .
+```
+
+This will download VS Code Server.
