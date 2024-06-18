@@ -72,35 +72,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 Use Homebrew to install additional tools:
 
 ```bash
-brew install neovim tmux fastfetch htop ripgrep go nvm
-```
-
-## Step 7: Setup NVM and Node
-
-Create a directory for NVM and add it to your shell profile:
-
-```bash
-mkdir ~/.nvm
-```
-
-Add the following to your shell profile e.g. `~/.profile` or `~/.zshrc`:
-
-```bash
-export NVM_DIR="$HOME/.nvm"
-[ -s "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh" ] && \. "/home/linuxbrew/.linuxbrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/home/linuxbrew/.linuxbrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-```
-
-Once added, run:
-
-```bash
-source ~/.zshrc
-```
-
-Then, install the latest LTS version of Node.js:
-
-```bash
-nvm install --lts
+brew install neovim tmux fastfetch htop ripgrep go node
 ```
 
 Now, install the latest version of NPM and TypeScript.
@@ -109,7 +81,7 @@ Now, install the latest version of NPM and TypeScript.
 npm install -g npm@latest typescript
 ```
 
-## Step 8: Setup Git
+## Step 7: Setup Git
 
 Generate a new SSH key and set your Git config:
 
@@ -127,7 +99,7 @@ cat .ssh/id_ed25519.pub
 
 Go to <a href="https://github.com/settings/keys">GitHub SSH Keys</a>, create a new key with whatever name you want, like "WSL", and copy and paste the SSH key.
 
-## Step 9: Install MongoDB Community Server on WSL
+## Step 8: Install MongoDB Community Server on WSL
 
 Run the following commands to install MongoDB:
 
@@ -143,7 +115,7 @@ sudo systemctl start mongod
 sudo systemctl enable mongod
 ```
 
-## Setup 10: Setup VS Code
+## Setup 9: Setup VS Code
 
 Install VS Code on your machine and download the WSL extension. Go to a directory like `Documents/GitHub` and run "code ."
 
