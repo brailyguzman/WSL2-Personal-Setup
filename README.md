@@ -12,7 +12,7 @@ memory=8GB
 localhostForwarding=true
 
 [experimental]
-autoMemoryReclaim=gradual
+autoMemoryReclaim=dropCache
 ```
 
 If you have 32GB of RAM, I suggest setting 8GB, or more if you would like.
