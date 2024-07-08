@@ -70,7 +70,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 Use Homebrew to install additional tools:
 
 ```bash
-brew install neovim tmux fastfetch htop ripgrep go node
+brew install neovim tmux fastfetch htop ripgrep go node@20
 ```
 
 Now, install the latest version of NPM and TypeScript.
