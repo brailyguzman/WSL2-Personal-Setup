@@ -9,10 +9,14 @@ Create a file called `.wslconfig` on your `C:\Users\User` directory with the fol
 ```ini
 [wsl2]
 memory=8GB
-localhostForwarding=true
+networkingMode=mirrored
 
 [experimental]
-autoMemoryReclaim=dropCache
+autoMemoryReclaim=gradual
+sparseVhd=true
+useWindowsDnsCache=true
+useWindowsDnsCache=true
+hostAddressLoopback=true
 ```
 
 If you have 32GB of RAM, I suggest setting 8GB, or more if you would like.
