@@ -15,7 +15,6 @@ networkingMode=mirrored
 autoMemoryReclaim=gradual
 sparseVhd=true
 useWindowsDnsCache=true
-useWindowsDnsCache=true
 hostAddressLoopback=true
 ```
 
