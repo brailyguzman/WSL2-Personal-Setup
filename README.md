@@ -104,10 +104,10 @@ Then, install the latest LTS version of Node.js:
 nvm install --lts
 ```
 
-Now, install the latest version of NPM and TypeScript.
+Now, install the latest version of NPM, Yarn, and TypeScript.
 
 ```bash
-npm install -g npm@latest typescript
+npm install -g npm@latest typescript yarn
 ```
 
 ## Step 8: Setup Git
