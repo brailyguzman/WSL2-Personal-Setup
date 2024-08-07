@@ -8,7 +8,8 @@ Create a file called `.wslconfig` on your `C:\Users\User` directory with the fol
 
 ```ini
 [wsl2]
-memory=8GB
+memory=16GB
+swap=8GB
 networkingMode=mirrored
 
 [experimental]
