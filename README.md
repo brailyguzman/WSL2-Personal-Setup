@@ -74,7 +74,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 Use Homebrew to install additional tools:
 
 ```bash
-brew install neovim tmux fastfetch btop ripgrep go nvm
+brew install neovim tmux fastfetch htop btop ripgrep go nvm
 ```
 
 ## Step 7: Setup NVM and Node
