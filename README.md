@@ -28,7 +28,7 @@ Open your WSL2 terminal and run the following commands:
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install git curl zsh python3 python3-pip build-essential -y
+sudo apt-get install git curl zsh python3 python3-pip build-essential xclip -y
 ```
 
 ## Step 3: Install Oh My Zsh
