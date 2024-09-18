@@ -41,15 +41,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 When prompted, press "Y" to set zsh as the default shell.
 
-## Step 4: Setup Directories and Syntax Highlighting
+## Step 4: Create directories
 
 ```bash
-mkdir Documents Downloads Stuff && mkdir Documents/GitHub
-cd Stuff
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-cd ..
+mkdir Documents Downloads Repos Work
 ```
 
 ## Step 5: Install Homebrew
@@ -74,7 +69,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 Use Homebrew to install additional tools:
 
 ```bash
-brew install neovim tmux fastfetch htop btop ripgrep go nvm llvm
+brew install neovim tmux fastfetch htop btop ripgrep go nvm zsh-syntax-highlighting
 ```
 
 ## Step 7: Setup NVM and Node
