@@ -27,7 +27,7 @@ Open your WSL2 terminal and run the following commands:
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install git curl zsh python3 python3-pip build-essential xclip -y
+sudo apt-get install git curl zsh build-essential xclip -y
 ```
 
 ## Step 3: Install Oh My Zsh
@@ -68,7 +68,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 Use Homebrew to install additional tools:
 
 ```bash
-brew install llvm neovim tmux fastfetch htop btop ripgrep lazygit go nvm zsh-syntax-highlighting stow
+brew install llvm python neovim tmux fastfetch htop btop ripgrep lazygit go nvm zsh-syntax-highlighting stow
 ```
 
 ## Step 7: Setup NVM and Node
