@@ -102,7 +102,7 @@ nvm install --lts
 Now, install the latest version of NPM, Yarn, and TypeScript.
 
 ```bash
-npm install -g npm@latest typescript yarn
+npm install -g npm@latest typescript yarn nodemon
 ```
 
 ## Step 8: Setup Git
